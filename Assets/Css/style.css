@@ -31,14 +31,11 @@ button {
 	background: #4DB3A5;
 	color: #FFF;
 	border: none;
-<<<<<<< HEAD
     transition: background .2s;
 }
 
 button:hover {
     background: #364150;
-=======
->>>>>>> 469ed4fb80ec487aff1db0a251b4c7628ad17899
 }
 
 .grup {
@@ -51,7 +48,6 @@ button:hover {
 
 .width-50 {
     width: 49.5%;
-<<<<<<< HEAD
 }
 
 a > button {
@@ -60,9 +56,6 @@ a > button {
 
 .border {
     border-radius: 50%;
-=======
-    box-sizing: border-box;
->>>>>>> 469ed4fb80ec487aff1db0a251b4c7628ad17899
 }
 
 .form-daftar {
@@ -138,13 +131,10 @@ a > button {
     color: #C0392B;
 }
 
-<<<<<<< HEAD
 a > .error:hover {
     background: #96281B;
 }
 
-=======
->>>>>>> 469ed4fb80ec487aff1db0a251b4c7628ad17899
 /*Menu Navigasi*/
 nav {
     margin: 0 auto;
