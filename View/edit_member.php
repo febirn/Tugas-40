@@ -36,6 +36,10 @@ if (isset($_GET['id'])) {
 	<div class="grup">
 		<button class="width-50" type="submit" name="edit">UPDATE DATA</button>
 		<a href="index.php?page=data"><button class="width-50 error" 
+<<<<<<< HEAD
 			type="button">CLOSE</button></a>
+=======
+			type="button">CENCEL</button></a>
+>>>>>>> 469ed4fb80ec487aff1db0a251b4c7628ad17899
 	</div>
 </form>

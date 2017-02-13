@@ -20,7 +20,11 @@ if (isset($_GET['delete'])) {
 		<th>GENDER</th>
 		<th>PHOTO</th>
 		<th>DATE EXPIRED</th>
+<<<<<<< HEAD
 		<th class="col-3">OPTION</th>
+=======
+		<th>OPTION</th>
+>>>>>>> 469ed4fb80ec487aff1db0a251b4c7628ad17899
 	</tr>
 <?php $no = 1 ?>
 <?php foreach ($member->getAll() as $val) : ?>
@@ -30,12 +34,21 @@ if (isset($_GET['delete'])) {
 		<td><?= $val['gender'] ?></td>
 		<td><?= $val['photo'] ?></td>
 		<td><?= $val['date_expired'] ?></td>
+<<<<<<< HEAD
 		<td><a href="index.php?page=edit&id=<?= $val['id'] ?>">
 			<button class="border" type="button">
 				<i class="fa fa-pencil fa-lg"></i>
 			</button></a>
 			<a href="index.php?page=data&delete=<?= $val['id'] ?>">
 			<button class="error border" type="button">
+=======
+		<td class="col-3"><a href="index.php?page=edit&id=<?= $val['id'] ?>">
+			<button class="width-47" type="button">
+				<i class="fa fa-pencil fa-lg"></i>
+			</button></a>
+			<a href="index.php?page=data&delete=<?= $val['id'] ?>">
+			<button class="width-47 error" type="button">
+>>>>>>> 469ed4fb80ec487aff1db0a251b4c7628ad17899
 				<i class="fa fa-trash fa-lg"></i>
 			</button></a>
 		</td>
